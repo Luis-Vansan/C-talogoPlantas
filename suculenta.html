@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cátalogo de Plantas da Mamis</title>
+    <script src="catalogo.js"></script>
+    <link href="catalogo.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <style type="text/css">
+       
+    </style>
+
+</head>
+
+<body>
+    <!--barra inicial-->
+    <div class="brown_bar container-fluid">
+        <p class="pt-2">
+            Cátalogo da Mamis
+            <a class="link-nostyle" href="catalogo.html"><img class="home" src="icons8-home-24.png"
+                    alt="Voltar ao início" title="Voltar ao início"></a>
+        </p>
+    </div>
+    <!--Barra de pesquisa-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary pesquisa">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Busca Precisa
+                <img src="icons8-pesquisa-20.png" class="px-3">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse py-3" id="navbarSupportedContent">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" id="go_search" type="search" placeholder="Digite o nome da planta"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" onclick="search_plant(event)">Achar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="box_1 row text-center justify-content-center mt-3 p-2">
+        <div class="picture col-6 me-1 position-relative ms-1" id="suculenta">
+            <div class="plant_name position-absolute bottom-0 ">
+                Suculenta
+            </div>
+        </div>
+    </div>
+
+    <div class="row container-fluid">
+        <p class="pt-3 ms-3 fs-3 col-5 text-center">
+            Quantidade:2
+        </p>
+        <p class="col-5 pt-3 fs-3 ms-4 text-end">
+            Variedades:4
+        </p>
+    </div>
+
+    <div class="container-fluid">
+
+        <h1>Suculentas: Beleza e Resistência em Pequenos Vasos</h1>
+
+        <p>As suculentas têm conquistado os corações dos amantes de plantas por sua beleza exótica e sua capacidade de
+            sobreviver em condições adversas. Originárias de regiões áridas e semiáridas de todo o mundo, essas plantas
+            desenvolveram características únicas para armazenar água em suas folhas, caules ou raízes, permitindo-lhes
+            prosperar mesmo em ambientes com pouca umidade.</p>
+
+        <h2>Características das Suculentas:</h2>
+
+        <ol>
+            <li><strong>Folhas Carnudas:</strong> Uma das características mais distintivas das suculentas são suas
+                folhas carnudas e inchadas, que servem como reservatório de água. Essa adaptação permite que as
+                suculentas sobrevivam por longos períodos sem rega.</li>
+
+            <li><strong>Crescimento Compacto:</strong> As suculentas geralmente têm um crescimento compacto, o que as
+                torna ideais para espaços pequenos e vasos decorativos. Sua diversidade de formas, tamanhos e cores faz
+                delas uma escolha popular para arranjos de jardim e decoração de interiores.</li>
+
+            <li><strong>Flores Vibrantes:</strong> Embora muitas suculentas sejam apreciadas principalmente por suas
+                folhas, muitas espécies também produzem flores deslumbrantes. As flores das suculentas vêm em uma
+                variedade de cores e formas, adicionando um toque extra de beleza aos arranjos.</li>
+        </ol>
+
+        <h2>Cuidados Básicos:</h2>
+
+        <ul>
+            <li><strong>Solo Bem Drenado:</strong> As suculentas prosperam em solos bem drenados que permitem que a água
+                escoe rapidamente. Um substrato específico para suculentas ou cactos é ideal para garantir o crescimento
+                saudável das plantas.</li>
+
+            <li><strong>Luz Solar Adequada:</strong> A maioria das suculentas prefere luz solar direta ou brilho
+                intenso. Coloque suas plantas perto de uma janela ensolarada para garantir que recebam a quantidade
+                necessária de luz para crescerem e florescerem.</li>
+
+            <li><strong>Rega Moderada:</strong> Embora as suculentas sejam conhecidas por sua capacidade de armazenar
+                água, elas ainda precisam de rega regular. No entanto, é importante não exagerar na rega, pois o excesso
+                de umidade pode causar apodrecimento das raízes.</li>
+        </ul>
+
+        <h2>Popularidade e Variedades:</h2>
+
+        <p>A popularidade das suculentas tem crescido nos últimos anos, com entusiastas de jardinagem e decoradores de
+            interiores apreciando sua facilidade de cuidado e sua estética única. Algumas das variedades mais populares
+            incluem:</p>
+
+        <ul>
+            <li><strong>Echeveria:</strong> Conhecidas por suas rosetas de folhas suculentas em forma de rosa, as
+                echeverias vêm em uma variedade de cores e são altamente valorizadas em arranjos de suculentas.</li>
+
+            <li><strong>Sedum:</strong> Com uma ampla gama de formas e cores, os sedums são suculentas versáteis que
+                podem ser usadas como cobertura do solo ou em vasos suspensos.</li>
+
+            <li><strong>Crassula:</strong> Também conhecidas como "árvore da jade", as crassulas são suculentas de
+                crescimento vertical com folhas brilhantes e uma forma arquitetônica única.</li>
+        </ul>
+
+        <p>Em resumo, as suculentas são plantas fascinantes que combinam beleza e resistência em um pacote compacto. Com
+            os cuidados adequados, essas plantas podem trazer vida e cor a qualquer ambiente, tornando-se uma adição
+            bem-vinda a qualquer coleção de plantas ou decoração de interiores.</p>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
