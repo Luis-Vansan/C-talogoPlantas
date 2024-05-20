@@ -1,6 +1,9 @@
 body{
     background-color: #eaeaea !important;
     font-family: Comic_sans !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     
 }
 
@@ -23,6 +26,7 @@ body{
 
 .pesquisa{
     margin-top: 47px;
+    width: 100%;
 }
 
 .link-nostyle {
@@ -33,23 +37,31 @@ body{
 }
 .home{
     position: absolute;
-    right: 7%;
+    right: 5%;
  
 }
 
 .box_1{
     background-color: #eaeaea;
-    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-height: 600px;
+    min-height: 250px;
     
 }
 
 .picture{
     background-color: #A69485;
-    height: 250px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+    min-height: 250px;
+    flex: 5;
+    margin: 10px;
+    max-width: 600px;
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
 
 }
 
