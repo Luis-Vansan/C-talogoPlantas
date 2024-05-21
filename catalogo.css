@@ -12,6 +12,7 @@ body{
     src: url(ComicNeueSansID.ttf);
 }
 
+/* barra verde do inicio */
 .brown_bar{
     background-color: #22403A;
     height: 50px;
@@ -24,11 +25,7 @@ body{
     width: 100%;
 }
 
-.pesquisa{
-    margin-top: 47px;
-    width: 100%;
-}
-
+/* icone de home para voltar ao inicio do site */
 .link-nostyle {
     color: inherit; 
     text-decoration: none;
@@ -41,6 +38,13 @@ body{
  
 }
 
+/* barra de pesquisa  */
+.pesquisa{
+    margin-top: 47px;
+    width: 100%;
+}
+
+/* container com as imagens duplas das plantas */
 .box_1{
     background-color: #eaeaea;
     display: flex;
@@ -72,11 +76,30 @@ body{
     color: white;
 }
 
-
+/* imagens das plantas */
 #suculenta{
     background-image: url(topo-da-vista-da-montanha_23-2150528665.avif);
     background-size: cover;
     
 }
 
+/* autocomplete da barra de pesquisa */
+.autocomplete-suggestions {
+    border: none;
+    background-color: #fff ;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    margin-top: 39px;
+}
 
+.autocomplete-suggestion {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.autocomplete-suggestion:hover {
+    background-color: #e9e9e9;
+}
